@@ -1,4 +1,4 @@
-# Deploy an environment with Terraform on Azure running a RedHat VM and NGINX
+# Deploy an environment with Terraform on Azure running a spot RedHat VM and NGINX
 Does what it says on the tin. All you need to do is enter your subscription_id in the first provider block.
 
 ### Prerequisites:
