@@ -23,7 +23,7 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 
 `az login`
 
-7. Enter a valid Azure subscription id in the first `provider` block in `main.tf`.
+7. Enter a valid Azure subscription id in the `provider` block in `main.tf`.
 
 ### Steps to Initialize and Apply:
 1. Run `terraform init` to initialize the backend.
