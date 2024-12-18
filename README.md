@@ -33,7 +33,7 @@ If the NGINX home page is not popping up, check the iinternal firewall
 
 `firewall-cmd --state`
 
-`firewall-cmd --zone=public --add-service=http --permanent
+`firewall-cmd --zone=public --add-service=http --permanent`
 
 `firewall-cmd --reload`
 
