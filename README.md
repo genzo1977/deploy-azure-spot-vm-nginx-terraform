@@ -28,18 +28,19 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 3. Run `terraform apply` to apply the infrastructure.
 
 ### Test
-Get the VM piblic IP address and enter in the address bar of the browser `http://<IP_ADDRESS>`
-If the NGINX home page is not popping up, check the iinternal firewall
+Get the VM public IP address and enter it in the address bar of the browser as `http://<IP_ADDRESS>`
+If the NGINX home page is not showing, check the iinternal firewall
 
 `firewall-cmd --state`
+
+If it's running, ensure HTTP (port 80) is allowed. If not, add it:
 
 `firewall-cmd --zone=public --add-service=http --permanent`
 
 `firewall-cmd --reload`
 
-Now it should all work
+Now it should all work.
 
-If it's running, ensure HTTP (port 80) is allowed:
 
 4. Clean up once you are done - `terraform destroy`
 
