@@ -14,6 +14,7 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 4. Clone this repo:
 
 `git clone https://github.com/genzo1977/deploy-azure-spot-vm-nginx-terraform.git`
+
 5. Change directory:
 
 `C:\ProgramFiles\terraform\deploy-azure-spot-vm-nginx-terraform\`
