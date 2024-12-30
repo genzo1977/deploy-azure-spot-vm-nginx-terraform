@@ -32,7 +32,7 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 
 ### Test
 Get the VM public IP address and enter it in the address bar of the browser as `http://<IP_ADDRESS>`
-If the NGINX home page is not showing, check the iinternal firewall
+If the NGINX home page is not showing, check the internal firewall
 
 `firewall-cmd --state`
 
