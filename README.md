@@ -29,6 +29,7 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 1. Run `terraform init` to initialize the backend.
 2. Run `terraform plan` to see what you are about to apply
 3. Run `terraform apply` to apply the infrastructure.
+4. Run `terraform output private_key` if you want to connect to the server via ssh
 
 ### Test
 Get the VM public IP address and enter it in the address bar of the browser as `http://<IP_ADDRESS>`
