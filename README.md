@@ -30,6 +30,7 @@ https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure
 2. Run `terraform plan` to see what you are about to apply
 3. Run `terraform apply` to apply the infrastructure.
 4. Run `terraform output private_key` if you want to connect to the server via ssh
+5. Clean up once you are done - `terraform destroy`
 
 ### Test
 Get the VM public IP address and enter it in the address bar of the browser as `http://<IP_ADDRESS>`
